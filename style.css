@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  height: 25px;
+}
+
+.login-items {
+  background-color: #eef2ea;
+}
+
+.income-items {
+  background-color: #e7ecef;
+}
+.results-items {
+  background-color: #e3ddd6;
+}
+
+button {
+  width: 150px;
+  margin-top: 30px;
+  height: 30px;
+  background-color: salmon;
+  color: wheat;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: springgreen;
+}
+fieldset {
+  border-color: salmon;
+}
+
+legend {
+  background-color: salmon;
+  color: wheat;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#line {
+  color: red;
+  background-color: blue;
+  height: 4px;
+  border: 10px;
+}
